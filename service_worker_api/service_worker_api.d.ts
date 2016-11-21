@@ -739,7 +739,7 @@ interface ServiceWorkerRegistration extends EventTarget {
     /**
      * Returns a list of the notifications that have been fired from the current service worker.
      */
-    getNotifications(options: any): Promise<Notification[]>;
+    getNotifications(options: any): Promise<any[]>;
 }
 
 interface ServiceWorkerRegisterOptions {
